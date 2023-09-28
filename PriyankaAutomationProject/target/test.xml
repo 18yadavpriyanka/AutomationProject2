@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Exercise Automation">
+	<test name="Register">
+    <classes>
+      <class name="Testcase.RegisterTest"/>
+    </classes>
+  </test>
+  <test name="Signup">
+    <classes>
+      <class name="Testcase.SignupTest"/>
+    </classes>
+  </test>
+  <test name="Signout">
+    <classes>
+      <class name="Testcase.SignoutTest"/>
+    </classes>
+  </test>
+<test name="Products">
+    <classes>
+      <class name="Testcase.ProductsTest"/>
+    </classes>
+  </test>
+  <test name="Contact">
+    <classes>
+      <class name="Testcase.ContactTest"/>
+    </classes>
+  </test>
+	
+</suite> <!--
+Suite -->
